@@ -1,0 +1,25 @@
+{
+  "name": "vultr-speedtest",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "vultr",
+    "vps",
+    "ping",
+    "speed",
+    "speedtest",
+    "rtt",
+    "time"
+  ],
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caseyWebb/vultr-speedtest"
+  },
+  "_": [],
+  "author": "Casey Webb <notcaseywebb@gmail.com>"
+}

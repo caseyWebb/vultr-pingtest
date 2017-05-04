@@ -1,0 +1,16 @@
+.nyc_output
+coverage
+node_modules
+src
+test
+
+.DS_Store
+.codeclimate.yml
+.editorconfig
+.eslintrc
+.gitattributes
+.gitignore
+.travis.yml
+
+**/config/local.js
+npm-debug.json
