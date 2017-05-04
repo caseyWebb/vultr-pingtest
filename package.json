@@ -1,25 +1,30 @@
 {
-  "name": "vultr-speedtest",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
+  "name": "vultr-pingtest",
+  "version": "0.0.1",
+  "description": "Test latency from all Vultr locations",
+  "bin": "index.js",
   "keywords": [
     "vultr",
     "vps",
     "ping",
     "speed",
-    "speedtest",
+    "pingtest",
     "rtt",
     "time"
   ],
   "license": "WTFPL",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caseyWebb/vultr-speedtest"
+    "url": "https://github.com/caseyWebb/vultr-pingtest"
   },
-  "_": [],
-  "author": "Casey Webb <notcaseywebb@gmail.com>"
+  "author": "Casey Webb <notcaseywebb@gmail.com>",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "eslint": "^3.19.0",
+    "eslint-config-profiscience": "^1.4.2",
+    "listr": "^0.12.0",
+    "lodash": "^4.17.4",
+    "tty-table": "^2.2.5",
+    "yargs": "^8.0.1"
+  }
 }

@@ -1,37 +1,31 @@
-vultr-speedtest
+vultr-pingtest
 ================
 
-![NPM](https://img.shields.io/npm/v/vultr-speedtest.svg)
-![License](https://img.shields.io/npm/l/vultr-speedtest.svg)
-[![Travis](https://img.shields.io/travis/caseyWebb/vultr-speedtest.svg)](https://travis-ci.org/caseyWebb/vultr-speedtest)
-[![Coveralls](https://coveralls.io/repos/github/caseyWebb/vultr-speedtest/badge.svg?branch=master)](https://coveralls.io/github/caseyWebb/vultr-speedtest?branch=master)
-[![DavidDM](https://img.shields.io/david/caseyWebb/vultr-speedtest.svg)](https://david-dm.org/caseyWebb/vultr-speedtest)
+![NPM](https://img.shields.io/npm/v/vultr-pingtest.svg)
+![License](https://img.shields.io/npm/l/vultr-pingtest.svg)
+[![DavidDM](https://img.shields.io/david/caseyWebb/vultr-pingtest.svg)](https://david-dm.org/caseyWebb/vultr-pingtest)
 
-This package will do super awesome things one day. Today is not that day.
+Test latency to a server from all [Vultr VPS](https://vultr.com) locations
 
-## Getting Started
+![Screenshot](./recording.gif)
 
-#### Install
+
+## Installation
 
 ```bash
-$ yarn add vultr-speedtest
+$ yarn global add vultr-pingtest
 ```
 
 _or_
 
 ```bash
-$ npm install -S vultr-speedtest
+$ npm install -g vultr-pingtest
 ```
 
-#### Usage
+## Usage
 
-```
-import vultr-speedtest from 'vultr-speedtest'
-
-vultr-speedtest.doWork(foo)
-// output
+```bash
+$ vultr-pingtest --host <server-to-ping> --locations <location1> <location2>
 ```
 
-#### API
-
-##### doWork(foo[, baz])
+See [./index.js](./index.js) for a list of possible locations.
