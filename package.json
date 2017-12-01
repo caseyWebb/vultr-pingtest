@@ -19,12 +19,12 @@
   },
   "author": "Casey Webb <notcaseywebb@gmail.com>",
   "dependencies": {
-    "axios": "^0.16.1",
-    "eslint": "^3.19.0",
-    "eslint-config-profiscience": "^1.4.2",
-    "listr": "^0.12.0",
+    "axios": "^0.17.1",
+    "eslint": "^4.12.1",
+    "eslint-config-profiscience": "^2.0.4",
+    "listr": "^0.13.0",
     "lodash": "^4.17.4",
     "tty-table": "^2.2.5",
-    "yargs": "^8.0.1"
+    "yargs": "^10.0.3"
   }
 }
