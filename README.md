@@ -1,6 +1,8 @@
 vultr-pingtest
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/caseyWebb/vultr-pingtest.svg)](https://greenkeeper.io/)
+
 ![NPM](https://img.shields.io/npm/v/vultr-pingtest.svg)
 ![License](https://img.shields.io/npm/l/vultr-pingtest.svg)
 [![DavidDM](https://img.shields.io/david/caseyWebb/vultr-pingtest.svg)](https://david-dm.org/caseyWebb/vultr-pingtest)
