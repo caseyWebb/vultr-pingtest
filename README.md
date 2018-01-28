@@ -12,22 +12,10 @@ Test latency to a server from all [Vultr VPS](https://vultr.com) locations
 ![Screenshot](./recording.gif)
 
 
-## Installation
-
-```bash
-$ yarn global add vultr-pingtest
-```
-
-_or_
-
-```bash
-$ npm install -g vultr-pingtest
-```
-
 ## Usage
 
 ```bash
-$ vultr-pingtest --host <server-to-ping> --locations <location1> <location2>
+$ npx vultr-pingtest --host <server-to-ping> --locations <location1> <location2>
 ```
 
 See [./index.js](./index.js) for a list of possible locations.
