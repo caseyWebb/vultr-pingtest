@@ -20,7 +20,7 @@
   "author": "Casey Webb <notcaseywebb@gmail.com>",
   "dependencies": {
     "axios": "^0.18.0",
-    "eslint": "^4.12.1",
+    "eslint": "^5.0.0",
     "eslint-config-profiscience": "^2.0.4",
     "listr": "^0.13.0",
     "lodash": "^4.17.4",
