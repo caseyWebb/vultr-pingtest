@@ -1,6 +1,6 @@
 {
   "name": "vultr-pingtest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test latency from all Vultr locations",
   "bin": "index.js",
   "files": [
