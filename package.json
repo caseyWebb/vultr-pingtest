@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Test latency from all Vultr locations",
   "bin": "index.js",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "vultr",
     "vps",
