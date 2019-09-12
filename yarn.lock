@@ -1038,9 +1038,9 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-smartwrap@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/smartwrap/-/smartwrap-1.0.12.tgz#5daa9cb00dd26ed4f8b088ac8466edb313281d85"
+smartwrap@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/smartwrap/-/smartwrap-1.1.0.tgz#99d9dfe9be1b3beff88114a991567f523d3eab26"
   dependencies:
     breakword "^1.0.3"
     wcwidth "^1.0.1"
@@ -1162,13 +1162,13 @@ tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
-tty-table@^2.6.8:
-  version "2.7.4"
-  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-2.7.4.tgz#ae6ce32df60de54a7ea5b4d9656aa2497a0f6c6d"
+tty-table@^2.7.6:
+  version "2.7.6"
+  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-2.7.6.tgz#5257b13d18337566ce5380e2ecff778e2c4c35dc"
   dependencies:
     chalk "^2.4.2"
     csv "^5.1.1"
-    smartwrap "^1.0.12"
+    smartwrap "^1.1.0"
     strip-ansi "^5.2.0"
     wcwidth "^1.0.1"
     yargs "^13.2.4"
