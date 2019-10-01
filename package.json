@@ -29,7 +29,7 @@
     "yargs": "^14.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.5.0",
+    "eslint": "^6.5.1",
     "eslint-config-profiscience": "^2.0.4"
   }
 }
