@@ -194,9 +194,9 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-breakword@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/breakword/-/breakword-1.0.3.tgz#71e091bbb78bb4ef003cf3ed2b2e062c6927f7dd"
+breakword@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/breakword/-/breakword-1.0.5.tgz#fd420a417f55016736b5b615161cae1c8f819810"
   dependencies:
     wcwidth "^1.0.1"
 
@@ -1046,13 +1046,13 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-smartwrap@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/smartwrap/-/smartwrap-1.1.0.tgz#99d9dfe9be1b3beff88114a991567f523d3eab26"
+smartwrap@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/smartwrap/-/smartwrap-1.1.2.tgz#4cd43df96a6faadeeffb4a57ae1d20933f4a34db"
   dependencies:
-    breakword "^1.0.3"
+    breakword "^1.0.5"
     wcwidth "^1.0.1"
-    yargs "^13.3.0"
+    yargs "^14.2.0"
 
 source-map@^0.5.0:
   version "0.5.7"
@@ -1170,13 +1170,13 @@ tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
-tty-table@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-2.8.0.tgz#e8b6f32210eee1abb8e51b424c11e49182954c22"
+tty-table@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-2.8.1.tgz#4d4d8e8cd81653ee4044383ac1900fd861507a49"
   dependencies:
     chalk "^2.4.2"
     csv "^5.1.3"
-    smartwrap "^1.1.0"
+    smartwrap "^1.1.2"
     strip-ansi "^5.2.0"
     wcwidth "^1.0.1"
     yargs "^13.2.4"
@@ -1264,7 +1264,7 @@ yargs-parser@^15.0.0:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs@^13.2.4, yargs@^13.3.0:
+yargs@^13.2.4:
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.3.0.tgz#4c657a55e07e5f2cf947f8a366567c04a0dedc83"
   dependencies:
