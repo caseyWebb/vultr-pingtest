@@ -326,27 +326,25 @@ cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-csv-generate@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/csv-generate/-/csv-generate-3.2.3.tgz#24004f21de61c2ea1c4474d3e65a18261f638a80"
+csv-generate@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/csv-generate/-/csv-generate-3.2.4.tgz#440dab9177339ee0676c9e5c16f50e2b3463c019"
 
-csv-parse@^4.4.6:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.6.3.tgz#25ab95a9320871847947ac633741ef2c483441a9"
+csv-parse@^4.8.2:
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.8.3.tgz#9f9b66c3e7e30409dba3d08ecd89eaa04b320659"
+
+csv-stringify@^5.3.4:
+  version "5.3.6"
+  resolved "https://registry.yarnpkg.com/csv-stringify/-/csv-stringify-5.3.6.tgz#2655e2e1c01b97b3963bccbc9407b8fb876dc589"
+
+csv@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/csv/-/csv-5.3.1.tgz#8ceb548813182d3d76a13889878c6b06104927b0"
   dependencies:
-    pad "^3.2.0"
-
-csv-stringify@^5.3.3:
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/csv-stringify/-/csv-stringify-5.3.3.tgz#c4725686a33db9f61e70d87af712285baefebe21"
-
-csv@^5.1.3:
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/csv/-/csv-5.1.3.tgz#0ba228854f03769711cc45d71f771276d2ccbdbb"
-  dependencies:
-    csv-generate "^3.2.3"
-    csv-parse "^4.4.6"
-    csv-stringify "^5.3.3"
+    csv-generate "^3.2.4"
+    csv-parse "^4.8.2"
+    csv-stringify "^5.3.4"
     stream-transform "^2.0.1"
 
 date-fns@^1.27.2:
@@ -984,12 +982,6 @@ p-try@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/p-try/-/p-try-2.0.0.tgz#85080bb87c64688fa47996fe8f7dfbe8211760b1"
 
-pad@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/pad/-/pad-3.2.0.tgz#be7a1d1cb6757049b4ad5b70e71977158fea95d1"
-  dependencies:
-    wcwidth "^1.0.1"
-
 parent-module@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parent-module/-/parent-module-1.0.1.tgz#691d2709e78c79fae3a156622452d00762caaaa2"
@@ -1114,13 +1106,13 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-smartwrap@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/smartwrap/-/smartwrap-1.2.0.tgz#9241ac6580326d76cde9e70ddb312cfc48a4fe00"
+smartwrap@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/smartwrap/-/smartwrap-1.2.1.tgz#d999ae117a42ab2028f5296dda2c3287e3a6b8d4"
   dependencies:
     breakword "^1.0.5"
     wcwidth "^1.0.1"
-    yargs "^14.2.0"
+    yargs "^15.1.0"
 
 source-map@^0.5.0:
   version "0.5.7"
@@ -1244,16 +1236,16 @@ tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
-tty-table@^2.8.4:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-2.8.4.tgz#99b85eabe9b43b48ae14404cb3b71c17836a0a7f"
+tty-table@^2.8.5:
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-2.8.5.tgz#1749182f2a3194389393e8868640a1786bce1d2c"
   dependencies:
     chalk "^2.4.2"
-    csv "^5.1.3"
-    smartwrap "^1.2.0"
+    csv "^5.3.1"
+    smartwrap "^1.2.1"
     strip-ansi "^5.2.0"
     wcwidth "^1.0.1"
-    yargs "^13.2.4"
+    yargs "^13.3.0"
 
 type-check@~0.3.2:
   version "0.3.2"
@@ -1343,13 +1335,6 @@ yargs-parser@^13.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^15.0.0:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-15.0.0.tgz#cdd7a97490ec836195f59f3f4dbe5ea9e8f75f08"
-  dependencies:
-    camelcase "^5.0.0"
-    decamelize "^1.2.0"
-
 yargs-parser@^16.1.0:
   version "16.1.0"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-16.1.0.tgz#73747d53ae187e7b8dbe333f95714c76ea00ecf1"
@@ -1357,7 +1342,7 @@ yargs-parser@^16.1.0:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs@^13.2.4:
+yargs@^13.3.0:
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.3.0.tgz#4c657a55e07e5f2cf947f8a366567c04a0dedc83"
   dependencies:
@@ -1371,22 +1356,6 @@ yargs@^13.2.4:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
-
-yargs@^14.2.0:
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.2.0.tgz#f116a9242c4ed8668790b40759b4906c276e76c3"
-  dependencies:
-    cliui "^5.0.0"
-    decamelize "^1.2.0"
-    find-up "^3.0.0"
-    get-caller-file "^2.0.1"
-    require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^3.0.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^15.0.0"
 
 yargs@^15.1.0:
   version "15.1.0"
