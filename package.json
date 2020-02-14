@@ -25,7 +25,7 @@
     "axios": "^0.19.2",
     "listr": "^0.14.2",
     "lodash": "^4.17.11",
-    "tty-table": "^2.8.8",
+    "tty-table": "^2.8.9",
     "yargs": "^15.1.0"
   },
   "devDependencies": {
