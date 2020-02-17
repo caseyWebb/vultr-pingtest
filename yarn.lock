@@ -758,6 +758,10 @@ json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
 
+kleur@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
+
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/levn/-/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
@@ -1194,12 +1198,12 @@ tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
-tty-table@^2.8.11:
-  version "2.8.11"
-  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-2.8.11.tgz#98e68aa2ca4262f876d00f8d28bc2461efdc6915"
+tty-table@^2.8.12:
+  version "2.8.12"
+  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-2.8.12.tgz#cee2ec298a6116d56cbf09dffad279c0e7b273f9"
   dependencies:
-    chalk "^2.4.2"
     csv "^5.3.1"
+    kleur "^3.0.3"
     smartwrap "^1.2.3"
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
