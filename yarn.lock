@@ -1224,9 +1224,9 @@ tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
-tty-table@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-3.0.3.tgz#c84aad606753ae5e207e0ac999dd465640c33496"
+tty-table@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/tty-table/-/tty-table-3.2.0.tgz#885af230caca397b5d956c7c2ca58202f7bfcc58"
   dependencies:
     chalk "^3.0.0"
     csv "^5.3.1"
