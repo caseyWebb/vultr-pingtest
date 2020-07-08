@@ -24,7 +24,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "listr": "^0.14.2",
-    "lodash": "^4.17.18",
+    "lodash": "^4.17.19",
     "tty-table": "^4.1.3",
     "yargs": "^15.4.0"
   },
