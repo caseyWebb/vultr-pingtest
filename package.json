@@ -22,7 +22,7 @@
   },
   "author": "Casey Webb <notcaseywebb@gmail.com>",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.20.0",
     "listr": "^0.14.2",
     "lodash": "^4.17.20",
     "tty-table": "^4.1.3",
