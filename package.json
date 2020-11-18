@@ -26,7 +26,7 @@
     "listr": "^0.14.2",
     "lodash": "^4.17.20",
     "tty-table": "^4.1.3",
-    "yargs": "^15.4.1"
+    "yargs": "^16.0.0"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
