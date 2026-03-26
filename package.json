@@ -21,15 +21,7 @@
     "url": "https://github.com/caseyWebb/vultr-pingtest"
   },
   "author": "Casey Webb <notcaseywebb@gmail.com>",
-  "dependencies": {
-    "axios": "^0.21.2",
-    "listr": "^0.14.2",
-    "lodash": "^4.17.21",
-    "tty-table": "^4.1.3",
-    "yargs": "^17.0.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.6.0",
-    "eslint-config-profiscience": "^2.0.4"
+  "engines": {
+    "node": ">=20"
   }
 }
